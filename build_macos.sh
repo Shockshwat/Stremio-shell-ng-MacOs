@@ -101,6 +101,7 @@ echo "Installing production Node.js dependencies..."
 
 # --- Compile Stremio Service ---
 echo "[5/7] Compiling stremio-service for ${RUST_TARGET}..."
+git submodule update --init --recursive 
 if [ -d "stremio-service" ]; then
   (cd stremio-service && cargo build --release --target "${RUST_TARGET}")
 else

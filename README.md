@@ -4,9 +4,11 @@
 
 Stremio-shell-ng-MacOs is a web wrapper for the Stremio application on macOS. This was made due to lack of support of Stremio v5 on MacOs and I couldn't really find much differences between v5 and the web version.
 
+NOTE: Only M1 macs are supported, Intel versions need a custom electron binary to play all videos which itself needs an intel mac, 150GB free space and 3 days of time.
+
 ## Build Instructions
 
-To install Stremio-shell-ng-MacOs, follow these steps:
+To build Stremio-shell-ng-MacOs, follow these steps:
 
 1. Clone the repository:
    ```bash
@@ -16,22 +18,10 @@ To install Stremio-shell-ng-MacOs, follow these steps:
    ```bash
    cd Stremio-shell-ng-MacOs
    ```
-3. Install the dependencies:
+3. Run the build Script:
    ```bash
-   npm install
+   ./build_macos.sh
    ```
-4. Build the project:
-   ```bash
-   npm run make
-   ```
-
-Or Alternatively,
-
-4. Run the Build Server:
-
-```bash
-npm run start
-```
 
 ## Usage
 
