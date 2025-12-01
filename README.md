@@ -1,5 +1,10 @@
-# Stremio-shell-ng-MacOs
+# NO LONGER NEEDED
 
+Stremio officially released v5 for MacOS on 27th November 2025 here: https://blog.stremio.com/stremio-v5-macos-release!-(with-arm-support)/
+
+
+# 
+# Stremio-shell-ng-MacOs
 ## Overview
 
 Stremio-shell-ng-MacOs is a web wrapper for the Stremio application on macOS. This was made due to lack of support of Stremio v5 on MacOs and I couldn't really find much differences between v5 and the web version.
